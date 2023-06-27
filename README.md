@@ -1,10 +1,3 @@
-<div align="right">
-  <h1>@trust0205: This is my telegram</h1>
-  </div>
-<div align="center">
-  <h1>Test Staking Contract with Anchor</h1>
-</div>
-
 ## Installation
 
 In my case, I use WSL cause bpf-sdk of solana chain not support Windows now. 
@@ -34,10 +27,3 @@ In my case, I use WSL cause bpf-sdk of solana chain not support Windows now.
     If you want to change the collection name to restrict, please change the value of `SYMBOL` in lib.rs
 - change reclaim time
   please change the value of 300 with thing you want
-```
-  if founded.is_some()
-     && ctx.accounts.clock.unix_timestamp
-  < 300 + list.items.get(founded.unwrap()).unwrap().stake_time {  
-  ... 
-  }
-  ```
